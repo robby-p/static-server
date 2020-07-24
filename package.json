@@ -1,6 +1,6 @@
 {
   "name": "ss-server",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "./bin/ss-server.js",
   "scripts": {

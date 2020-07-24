@@ -24,6 +24,7 @@ const defaultConfig = {
   port: 8080,
   dir: path('build'),
   host: 'localhost',
+  quiet: false,
   key: path('ssl-cert.key'),
   cert: path('ssl-cert.crt'),
   config: '/path/to/config',
@@ -137,6 +138,7 @@ url:  ${proto}://${config.host}:${config.port}
 
 made with ❤  by @rpolana
   `.split('\n'),
+    { print: !config.quiet }
   );
 });
 

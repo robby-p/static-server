@@ -59,7 +59,7 @@ Options are;
 ${usage}`);
 }
 
-if (config.config !== '/path/to/config') {
+if (config.config) {
   try {
     config = {
       ...Object.entries(JSON.parse(fs.readFileSync(config.config))).reduce(

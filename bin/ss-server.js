@@ -108,7 +108,7 @@ if (config.cors === true) {
 
 app.use(express.static(config.dir));
 
-console.log(`Serving static assets from dir: ${config.dir}`);
+if (!quiet) console.log(`Serving static assets from dir: ${config.dir}`);
 
 (config.ssl
   ? https.createServer(

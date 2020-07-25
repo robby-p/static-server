@@ -1,18 +1,19 @@
 {
   "name": "ss-server",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "./bin/ss-server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin":{
-    "ss-server":"./bin/ss-server.js"
+  "bin": {
+    "ss-server": "./bin/ss-server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "lil-textbox": "^1.0.0"
   }
 }
